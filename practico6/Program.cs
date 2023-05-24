@@ -58,13 +58,15 @@ string? numString;
 bool continuar = true;
 while (continuar)
 {
+
     Console.WriteLine("ingrese la opcion a realizar");
     Console.WriteLine("1 - Sumar");
     Console.WriteLine("2 - Restar");
     Console.WriteLine("3 - Multiplicar");
     Console.WriteLine("4 - Dividir ('/')");
     Console.WriteLine("5 - Dividir ('%')");
-    Console.WriteLine("6 - salir");
+    Console.WriteLine("0 - Salir");
+
     numString = Console.ReadLine();
     continuar = int.TryParse(numString, out opcion);
 
@@ -120,9 +122,11 @@ while (continuar)
             resultado = num1 % num2;
             Console.WriteLine("el resultado es: " + resultado);
             break;
-        case 6:
+        case 0:
             continuar = false;
             break;
     }
 
 }
+
+
