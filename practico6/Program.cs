@@ -10,9 +10,9 @@ b = a;
 Console.WriteLine("valor de a: " + a);
 Console.WriteLine("valor de b: " + b);
 */
-/* 
-Ejercicio 1. Construir un programa que permita invertir un número. Verifique que el texto ingresado es de hecho un número y, 
-en caso afirmativo, realice la inversión del número sólo si éste es mayor a 0.
+// Ejercicio 1
+// Ejercicio 1. Construir un programa que permita invertir un número. Verifique que el texto ingresado es de hecho un número y, 
+// en caso afirmativo, realice la inversión del número sólo si éste es mayor a 0.
 
 int num, invertido = 0;
 bool control = false;
@@ -46,11 +46,3 @@ while (!control)
         }
     }
 }
-*/
-/*
-Ejercicio 2. Ingrese al branch CalculadoraV1 y construya un programa que sea una
-calculadora que permita al usuario realizar las 4 operaciones básicas (Sumar, Restar,
-Multiplicar y Dividir) a partir de un menú para seleccionar la opción a elegir y que luego
-pida dos números y que devuelva el resultado de la operación seleccionada. Además
-una vez que termine de realizar la operación le pregunte si desea realizar otro cálculo.
-*/
